@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 20px;
+}
+
+#header {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin: repeat(4, 0px);
+}
+
+#navbar {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-color: black;
+    color: white;
+}
+
+#img1 {
+    width: 100%;
+    height: auto;
+}
+
+#cntnr2 {
+    background-color: white;
+    grid-template-columns: 25% 60% 15%
+}
+
+#pagecenter {
+    color: black;
+    border-color: black;
+}
+
+#indvlstitm {
+    color:black;
+    background-color: gray;
+    border-color: black;
+    padding: repeat(4, 2px);
+    border-spacing: 2px;
+}

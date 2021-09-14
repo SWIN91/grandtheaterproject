@@ -24,25 +24,35 @@ body {
     color: white;
 }
 
+#imgcaption {
+   justify-items: center;
+}
+
 #img1 {
     width: 100%;
     height: auto;
+    padding: 0px;
 }
 
-#cntnr2 {
+#date {
     background-color: white;
-    grid-template-columns: 25% 60% 15%
-}
-
-#pagecenter {
     color: black;
-    border-color: black;
+    border-color: gray;
 }
 
-#indvlstitm {
-    color:black;
-    background-color: gray;
+#img2 {
+    position: 20px; /*Didn't do anything*/
+}
+
+#paragraph {
+    color: black;
+    background-color: white;
+    border-bottom-color: gray;
+    border-style: solid;
+}
+
+#buttons {
+    color: white;
+    background-color: yellow;
     border-color: black;
-    padding: repeat(4, 2px);
-    border-spacing: 2px;
 }
